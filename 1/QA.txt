@@ -1,0 +1,55 @@
+1. From what langauge is C++ derived from?
+- C
+2. What was the main factor thaat drove the creation of C++
+- OOP implementations, Increasing program complexity
+3. C++ is the parent of Java and C#. True or False
+- True
+
+
+1. Name the principles of OOP
+- Encapsulation, Inheritance, Polymorphism (Abstraction)
+2. What is the basic unit of Encapsulation in C++
+- The "class" is the basic unit
+3. What is the commonly used term for a subroutine in C++
+- Function (CPP), Method (Java)
+
+
+1. Where does a CPP program begin execution?
+- begins with main()
+2. What is cout?
+- is the predefined identifier that is linked to the console output
+3. What does #include <iostream> do?
+- It includes the header <iostream> which supports I/OOP
+
+
+1. Must a variable be declared before it is used?
+- Yes
+2. Show how to assign the variable min the value 0
+- min = 0
+3. Can more than one variable be declared in a single declaration statement?
+- Yes
+
+
+1. What does the if statement do?
+- If is C++'s condition statement
+2. What does the for statement do?
+- The for is one of C++'s loop statement
+3. What are C++'s relational operators?
+- ==, !=, <, >, <=, >=
+
+
+1. What is a Function?
+- A function is a subroutine that contains one or more C++'s statement
+2. A function is called by using its name, T or F?
+- True
+3. What is the C++ standard fucntion library?
+- The C++ standard function library is a collection of fucntion supplied by all C++ compilers.
+
+
+1. Which is the keyword, for, For, FOR?
+- for
+2. A C++ identifier canc ontain what type of characters? (identier -> variable name)
+- letters, digits, underscore
+3. Are index21 and Index21 the same identier?
+- No Case sensitive.
+

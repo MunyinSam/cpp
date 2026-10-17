@@ -1,0 +1,37 @@
+1. What are the seven basic types
+
+1 byte = 8 bits
+
+char -> 1 byte
+wchar_t (wide character) -> 2 bytes (on windows), 4 bytes on macOS and Linux
+int (long, short) -> 4 bytes
+float -> 4 bytes
+double -> 8 bytes
+bool -> 1 byte
+void
+
+2. What's the difference between signed and unsigned integers
+
+signed -> both postive and negative
+unsigned -> positive (will have 1 more bit to use)
+
+3. Can a char variable be used like a little integer
+- Yes it can hold other values than just the ASCII character set.
+Typically range from -128 to 127
+
+
+1. What is the primary difference between a float and a double?
+- float and double has different magnitude of the values they could hold.
+2. What values can a bool variable have? To what Boolean value does zero convert?
+- True (1) False (0)
+3. What is void?
+- Valueless expression
+
+
+1. By default, what is the type of the literal 10? What is the type of the literal 10.0?
+- Int and double
+2. How do you specify 100 as a long int? How do you specify 100 as an unsigned int?
+- long int -> 100L
+- us int -> 100U
+3. What is \b?
+- Backspace
