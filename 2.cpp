@@ -11,14 +11,14 @@ int main() {
     int i; // local var
 
     for(i=0;i<10;i++) {
-        count = i * 2;
+        ::count = i * 2;
         func1();
     }
     return 0;
 }
 
 void func1() {
-    cout << "count: " << count;
+    cout << "count: " << ::count;
     cout << endl;
     func2();
 }
