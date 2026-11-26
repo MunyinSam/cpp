@@ -3,11 +3,14 @@
 using namespace std;
 
 void swap(int &x, int &y);
+int& minSwap(int &x, int &y);
 
 int main() {
-    int a = 10, b = 20;
+    int a = 30, b = 20;
     swap(a, b);
     cout << a << ' ' << b;
+
+    cout << endl << minSwap(a, b);
     return 0;
 }
 
@@ -17,4 +20,14 @@ void swap(int &x, int &y) {
     temp = x;
     x = y;
     y = temp;
+}
+
+int& minSwap(int &x, int &y) {
+    int temp;
+
+    temp = x;
+    x = y;
+    y = temp;
+
+    return x > y ? y : x;
 }
